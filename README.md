@@ -20,7 +20,7 @@ lpresence requires this dependencies to get it working:
    * [winapi](https://github.com/stevedonovan/winapi/)
  * On POSIX platforms (i.e Linux and MacOS):
    * [cqueues](https://github.com/wahern/cqueues/)
- * If you're Lua environment does not have `string.pack` and `string.unpack` (i.e Lua before 5.3):
+ * If your Lua environment does not have `string.pack` and `string.unpack` (i.e Lua before 5.3):
    * [vstruct](https://github.com/toxicfrog/vstruct/)
 
 After the dependencies are installed, move `lpresence/` directory and `lpresence.lua` to your Lua path.
